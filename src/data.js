@@ -1,17 +1,17 @@
 export const projects = [
   {
     title: "Vinyltracer",
-    subtitle: "Ruby on Rails, Bootstrap, CSS",
+    subtitle: "Ruby on Rails, Bootstrap, SCSS",
     description:
-      "A music suggestion app that utilises web scraping and access API's for its data",
+      "A music suggestion app that utilises web scraping and accessing API's for its data",
     image: "./vinyltracer_screenshot.jpg",
     link: "https://vinyltracer.com",
   },
   {
     title: "Refuge",
-    subtitle: "HTML / CSS",
+    subtitle: "HTML / CSS / Bootstrap",
     description:
-      "A static website made for a band using HTML / CSS",
+      "A static website made for a band with embedded videos and audio.",
     image: "./refuge_screenshot.jpg",
     link: "https://officialrefuge.com",
   },
@@ -46,9 +46,9 @@ export const skills = [
   "JavaScript",
   "React",
   "Ruby on Rails",
-  "HTML",
-  "CSS",
   "Python",
+  "CSS",
+  "HTML",
   "SASS",
   "GitHub",
   "Bootstrap",
