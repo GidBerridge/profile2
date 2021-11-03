@@ -49,6 +49,8 @@ export const skills = [
   "HTML",
   "CSS",
   "Python",
+  "SASS",
+  "GitHub",
   "Bootstrap",
-  "Tailwind",
+  "Wordpress"
 ];
