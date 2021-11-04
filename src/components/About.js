@@ -5,11 +5,10 @@ export default function About() {
     <section id="about">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white titles">
-            Hi, I'm Gid.
-            {/* <br className="hidden lg:inline-block" />I love to build amazing
-            apps. */}
+          <h1 className="title-font sm:text-4xl text-3xl mb-2 font-medium text-white">
+            Gid Berridge
           </h1>
+          <h2 className="text-white mb-1 font-medium title-font">Full Stack Developer</h2>
           <p className="mb-8 leading-relaxed">
             I'm a full stack developer based in London (UK) and happy to work locally or remotely. I've worked on a number
             of front-end, back-end and no-code projects. 
@@ -28,11 +27,11 @@ export default function About() {
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6"> 
-          <img
+          {/* <img
             className="object-cover object-center rounded"
             alt="hero"
             src="./coding.svg"
-          />
+          /> */}
         </div>
       </div>
     </section>
