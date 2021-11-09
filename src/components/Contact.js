@@ -27,7 +27,7 @@ export default function Contact() {
   return (
     <section id="contact" className="relative bg-gray-900">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-      <div className="relative flex flex-wrap items-center py-6 rounded shadow-md">
+        <div className="relative flex flex-wrap items-center py-6 rounded shadow-md  grid-cols-2">
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0 ">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL    
@@ -39,6 +39,9 @@ export default function Contact() {
                 PHONE
               </h2>
               <p className="text-indigo-400 leading-relaxed">(+44)7989654036</p>
+            </div>
+            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0 ">
+              
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 GitHub
               </h2>
