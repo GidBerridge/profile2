@@ -26,31 +26,29 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative bg-gray-900">
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="relative flex flex-wrap items-center py-6 rounded shadow-md  grid-cols-2">
-            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0 ">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                EMAIL    
-              </h2>
-              <a className="text-indigo-400 leading-relaxed">
-                gid.berridge@gmail.com
-              </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                PHONE
-              </h2>
-              <p className="text-indigo-400 leading-relaxed">(+44)7989654036</p>
-            </div>
-            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0 ">
-              
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                GitHub
-              </h2>
-              <p className="text-indigo-400 leading-relaxed"><a href="https://github.com/GidBerridge">https://github.com/GidBerridge</a></p>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                LinkedIn
-              </h2>
-              <p className="text-indigo-400 leading-relaxed"><a href="https://www.linkedin.com/in/gideon-berridge/">https://www.linkedin.com/in/gideon-berridge/</a></p>
-            </div>
+      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap grid-cols-2">
+          <div className="lg:w-1/2 px-6 mt-4 lg:mt-0 ">
+            <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+              EMAIL    
+            </h2>
+            <a className="text-indigo-400 leading-relaxed">
+              gid.berridge@gmail.com
+            </a>
+            <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+              PHONE
+            </h2>
+            <p className="text-indigo-400 leading-relaxed">(+44)7989654036</p>
+          </div>
+          <div className="lg:w-1/2 px-6 mt-4 lg:mt-0 ">
+            
+            <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+              GitHub
+            </h2>
+            <p className="text-indigo-400 leading-relaxed"><a href="https://github.com/GidBerridge">https://github.com/GidBerridge</a></p>
+            <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+              LinkedIn
+            </h2>
+            <p className="text-indigo-400 leading-relaxed"><a href="https://www.linkedin.com/in/gideon-berridge/">https://www.linkedin.com/in/gideon-berridge/</a></p>
           </div>
         {/* <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
