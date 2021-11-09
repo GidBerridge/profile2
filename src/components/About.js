@@ -6,7 +6,7 @@ export default function About() {
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col place-self-center">
         <div className="md:flex-grow md:w-1/2 flex flex-col mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-2 font-medium text-white text-center">
-            Gideon Berridge
+            Gideon Berridge 
           </h1>
           <h2 className="text-white mb-4 font-medium title-font">Full Stack Developer</h2>
           <span
