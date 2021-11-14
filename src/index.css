@@ -2,33 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body {
-    background-color: aquamarine;
-} */
 
 h1, h2, p, .subheading {
     font-family: 'Raleway', sans-serif;
 }
 
 body {
-	background: linear-gradient(-45deg,#e73c7e, #ee7752,  #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 20s ease infinite;
-	height: 100vh;
+	background: rgb(247, 224, 154);
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+
+.projects-card {
+	max-width: 27rem;
+	max-height: 20rem;
+	/* margin: 3rem; */
 }
 
-.images {
-	max-width: 40rem;
+.projects-grid{
+	display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+	place-items: center;
 }
+
+.album {
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	display: grid;
+	grid-template-columns: 150px 1fr;
+	grid-gap: 10px;
+	align-items: center;
+	color: white;
+	font-weight: 100;
+  }
+
+  .album__artwork {
+	width: 100%;
+  }
