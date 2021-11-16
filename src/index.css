@@ -2,25 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-
-h1, h2, p, .subheading {
-    font-family: 'Raleway', sans-serif;
+h1,
+h2,
+p,
+.subheading {
+  font-family: 'Raleway', sans-serif;
 }
 
 body {
-	background: rgb(247, 224, 154);
+  background: rgb(247, 224, 154);
 }
-
 
 .projects-card {
-	width: 25rem;
-	height: 14rem;
+  width: 25rem;
+  height: 13rem;
 }
 
-.projects-grid{
-	display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 20px;
-	place-items: center;
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  place-items: center;
 }
-

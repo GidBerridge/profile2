@@ -1,6 +1,24 @@
 import React from "react";
 import { projects } from "../data";
 
+
+function info(e){ 
+  projects.map((project) => (
+      <div className="z-10 border-4 border-gray-800 bg-gray-900">
+        <h1 className="title-font text-lg font-medium text-white mb-3">
+            {project.title}
+        </h1>
+        <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+          {project.subtitle}
+        </h2>        
+        <p className="leading-relaxed text-white">{project.description}</p>
+      </div>
+    )
+  )
+};
+
+
+
 export default function Projects() {
   return (
     <section id="projects" className="body-font">
@@ -13,28 +31,18 @@ export default function Projects() {
             This is a selection of my previous work. Click on the info to link to the live websites. 
           </p>
         </div>
-        <div className="projects-grid">
+        <div className="projects-grid" onMouseOver={info}>
           {projects.map((project) => (
             <a
               href={project.link}
               key={project.image}
               className="">
-              <div className="">
+              <div >
                 <img
                   alt="gallery"
                   className="projects-card"
                   src={project.image}
-                />
-          
-                <div className="z-10 border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
-                      {project.title}
-                  </h1>
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                    {project.subtitle}
-                  </h2>        
-                  <p className="leading-relaxed text-white">{project.description}</p>
-                </div>
+                />                
               </div>
             </a>
           ))}
